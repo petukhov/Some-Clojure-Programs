@@ -1,10 +1,10 @@
-# cool-clojure-snippets
+# Cool Clojure Snippets
 
-Interesting short programs I wrote in Clojure or ClojureScript
+Interesting short programs I wrote in Clojure or ClojureScript.
 
 ## How to run
 
-Download "leinigen" first.
+Download Leiningen if you don't have it.
 
 Clone this repo
 
