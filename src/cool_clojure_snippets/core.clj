@@ -1,5 +1,6 @@
 (ns cool-clojure-snippets.core
-  (:require [cool-clojure-snippets.eratosthenes_sieve :as sieve])
+  (:require [cool-clojure-snippets.eratosthenes_sieve :as sieve]
+            [cool-clojure-snippets.infix-arithmetic :as infix])
   (:gen-class))
 
 (defn -main
@@ -11,5 +12,7 @@
   (println "________________________ \n")
   (println "Running all the snippets")
   (println "________________________ \n")
-  (println "Generating all prime numbers less than 1000:")
-  (println (sieve/generate-primes 1000)))
+  #_(println "Generating all prime numbers less than 1000:")
+  #_(println (sieve/generate-primes 1000))
+  (println "Demonstrating the infix expression being calculated:")
+  (println (infix/calculate (5 - 3))))
