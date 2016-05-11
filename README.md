@@ -3,8 +3,8 @@
 Interesting short programs I wrote in Clojure or ClojureScript. 
 
 ### Currently includes:
-	- Sieve of Eratosthenes implementation without any mutation 
-	- Infix expression macro implementing the Dijkstra's Shunting-yard algorithm
+- Sieve of Eratosthenes implementation without any mutation 
+- Infix expression macro implementing the Dijkstra's Shunting-yard algorithm
 
 ## How to run
 
