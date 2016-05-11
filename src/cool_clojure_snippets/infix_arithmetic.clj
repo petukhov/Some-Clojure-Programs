@@ -23,10 +23,15 @@
   (let [[ops-stack output] (reduce process-token [() ()] expr)]
     (into ops-stack output)))
 
-(defn postfix->value [postfix-stack]
-  postfix-stack)
+(defn calculate [stack token]
+  (if (number? token)
+    (conj stack token)
+    (conj (drop 2 stack) (token (second stack) (first stack)))))
 
-(defn calculate [& expr]
+(defn postfix->value [postfix-stack]
+  (first (reduce calculate () postfix-stack)))
+
+(defn infix [& expr]
   (-> expr
       (forms->postfix)
       (postfix->value)))
