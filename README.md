@@ -1,6 +1,10 @@
 # Cool Clojure Snippets
 
-Interesting short programs I wrote in Clojure or ClojureScript.
+Interesting short programs I wrote in Clojure or ClojureScript. 
+
+### Currently includes:
+	- Sieve of Eratosthenes implementation without any mutation 
+	- Infix expression macro implementing the Dijkstra's Shunting-yard algorithm
 
 ## How to run
 
