@@ -1,5 +1,7 @@
 (ns cool-clojure-snippets.infix-arithmetic)
 
+(declare infix)
+
 (def allowed-ops {+ 1, - 1, * 2, / 2})
 
 (defn resolve-sym [sym] @(resolve (symbol sym)))
