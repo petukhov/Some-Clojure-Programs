@@ -1,4 +1,4 @@
-# Cool Clojure Snippets
+# Some Clojure Programs
 
 Interesting short programs I wrote in Clojure or ClojureScript. 
 
